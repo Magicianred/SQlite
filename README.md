@@ -32,6 +32,10 @@ INSERT INTO table_name values (10,'varchar');
 PRAGMA table_info([table_name]);
 ``` 
 
+* Export a database to .sql file 
+```
+sqlite3 mydatabase.db .dump > mydatabase.sql
+```
 
 ## Install 
 
